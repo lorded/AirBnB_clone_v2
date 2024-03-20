@@ -7,9 +7,9 @@ from models.place import place_amenity
 
 
 class Amenity(BaseModel, Base):
-    """This is the class for Amenity
+    """This is the state for Amenity
     Attributes:
-        name: input name
+        name: insert name
     """
     __tablename__ = "amenities"
     name = Column(String(128), nullable=False)
